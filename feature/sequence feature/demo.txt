@@ -1,0 +1,20 @@
+%gram
+load('abc.mat')
+load('ab.mat')
+
+[header,sequence]=fastaread('sequence.fasta');
+header = header';
+Positive_DNA_seg = sequence';
+for i=1:size(Positive_DNA_seg,1)
+	seq=Positive_DNA_seg(i);
+	F3 = Frequence_3gram(seq,abc,ab);
+  tmp = [tmp;F3];
+  if mod(i, 100000) == 0
+    Frez = [Frez;tmp];
+    tmp = [];
+    disp(i);
+    disp(clock);
+  end
+	% Frez=[Frez;F3];
+end
+Frez = [Frez;tmp];

@@ -1,0 +1,7 @@
+%read sample
+
+[blood_sample chr_sample] = read_sample(sample_file_name);
+
+%extract features
+Dir_f_feature = '';
+feature_bin = Extract_feature(Dir_f_feature,blood_sample,chr_sample);
