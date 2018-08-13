@@ -4,15 +4,24 @@ Input：BED format file
 
 The format of BED file as follow,
 
-Chromosome number	position	reads	methylation state
+Chromosome number     position      reads      methylation state
+
 chr1	136409		4		0
+
 chr1	136423		6		1
+
 chr1	136425		6		0
+
 chr1	136473		4		1
+
 chr1	839397		4		0
+
 chr1	839398		6		0
+
 chr1	839400		4		0
+
 chr1	839401		6		0
+
 chr1	852002		7		0
 
 No.1 Feature extraction:
@@ -51,6 +60,7 @@ In our paper, we use five classifiers to construct prediction model, including L
 
 
 References:
+
 [1] Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, et al. The human genome browser at UCSC. Genome Research. 2002;12(6):996-1006.
 
 [2] Consortium EP. The ENCODE (ENCyclopedia of DNA elements) project. Science. 2004;306(5696):636-40.
