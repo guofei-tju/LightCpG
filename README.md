@@ -4,14 +4,23 @@ Input：BED format file
 
 The format of BED file as follow,
 Chromosome number     position    reads    methylation state
+
 chr1	136409	4	0
+
 chr1	136423	6	1
+
 chr1	136425	6	0
+
 chr1	136473	4	1
+
 chr1	839397	4	0
+
 chr1	839398	6	0
+
 chr1	839400	4	0
+
 chr1	839401	6	0
+
 chr1	852002	7	0
 
 No.1 Feature extraction:
