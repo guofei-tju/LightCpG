@@ -4,7 +4,7 @@ Input：BED format file
 
 The format of BED file as follow,
 
-Chromosome number     position      reads      methylation state
+Chromosome number-position-reads-methylation state
 
 chr1	136409		4		0
 
