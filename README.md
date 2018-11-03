@@ -1,6 +1,6 @@
 # LightCpG
 
-#Input：BED format file
+# Input：BED format file
 
 The format of BED file as follow,
 
@@ -24,7 +24,7 @@ chr1	839401		6		0
 
 chr1	852002		7		0
 
-#No.1 Feature extraction:
+# No.1 Feature extraction:
 
 Sequence feature：
 
@@ -50,16 +50,16 @@ Positional feature:
 
 Positional_feature.m is used to extract positional feature, in which multiple single-cell sequencing files are necessary.
 
-#No.2 Feature combination:
+# No.2 Feature combination:
 
 We combinate sequence feature, structural feature, positional feature to construct feature set.
 
-#No.3 classifier:
+# No.3 classifier:
 
 In our paper, five classifiers are employed to construct prediction model, including LightGBM[4], XGboost[5], Deep learning, Random Forset and GBDT.
 
 
-#References:
+# References:
 
 [1] Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, et al. The human genome browser at UCSC. Genome Research. 2002;12(6):996-1006.
 
