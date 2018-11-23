@@ -34,15 +34,15 @@
 
 >> In the code, the following questions need to be attention.
 
->> The 'f' is the folder where hg19 database is stored.
+>>> The 'f' is the folder where hg19 database is stored.
 
->> The 'sub_f' is the folder where input file is stored
+>>> The 'sub_f' is the folder where input file is stored
 
 > ### n-gram feature is extracted by using demo.txt according the extracted sequence.
 
 >> In the code, the following question need to be attention.
 
->> 'sequence.fasta' is the the sequence file.
+>>> 'sequence.fasta' is the the sequence file.
 
 
 ## Structural feature
@@ -62,9 +62,9 @@
 
 >> In the code, the following questions need to be attention.
 
->> The 'sample_file_name' is the input file.
+>>> The 'sample_file_name' is the input file.
 
->> The 'Dir_f_feature' is the folder where multiple feature files are stored.
+>>> The 'Dir_f_feature' is the folder where multiple feature files are stored.
 
 ## Positional feature
 
