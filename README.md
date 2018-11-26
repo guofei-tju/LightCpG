@@ -1,8 +1,8 @@
 # LightCpG
 
-## The flowchart of LightCpG
+## The Framework of LightCpG
 
-<div align=center><img width="700" height="500" src="https://github.com/guofei-tju/LightCpG/blob/master/Framework.jpg"/></div>
+<div align=center><img width="600" height="400" src="https://github.com/guofei-tju/LightCpG/blob/master/Framework.jpg"/></div>
 
 # Input：BED format file
 
