@@ -48,8 +48,7 @@
 
 ## Structural feature
 
-> In this paper, structural feature includes CGI status (CGI, CGI shore, CGI shelf), cis-regulatory elements (TFBS, DNase, chromatin states, histone modification),  
-> and DNA properties (iHS, constrain score). These features reprsent the attribute of CpG site in genome. 
+> In this paper, structural feature includes CGI status (CGI, CGI shore, CGI shelf), cis-regulatory elements (TFBS, DNase, chromatin states, histone modification), and DNA properties (iHS, constrain score). These features reprsent the attribute of CpG site in genome. 
 
 > ### Structural feature is extracted by using [**demo.txt**](https://github.com/guofei-tju/LightCpG/tree/master/feature/structural%20feature), in which structural feature files are necessary.
 
