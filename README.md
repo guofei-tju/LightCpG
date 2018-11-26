@@ -52,13 +52,13 @@
 
 > ### Structural feature is extracted by using [**demo.txt**](https://github.com/guofei-tju/LightCpG/tree/master/feature/structural%20feature), in which structural feature files are necessary.
 
->> CGI file is downloaded from the UCSC genome browser[1].
+>> CGI file is downloaded from the UCSC genome browser [1].
 
->> Transcription factor binding sites (TFBS), histone modification marks, chromatin states, and DNase I hypersensitive sites (DHSs) feature files are downloaded from the [ENCODE](https://www.encodeproject.org/)[2].
+>> Transcription factor binding sites (TFBS), histone modification marks, chromatin states, and DNase I hypersensitive sites (DHSs) feature files are downloaded from the [ENCODE](https://www.encodeproject.org/) [2].
 
 >> Integrated Haplotype Score (iHS) is downloaded from http://hgdp.uchicago.edu/Browser_tracks/iHS.
 
->> GERP++ Constraint Score is downloaded from the SidowLab GERP++ tracks on hg19[3].
+>> GERP++ Constraint Score is downloaded from the SidowLab GERP++ tracks on hg19 [3].
 
 >> In the code, the following questions need to be attention.
 
@@ -71,7 +71,7 @@
 > We posit that some of the same CpG sites with unknown methylation states can be detected in multiple cells, and that the states of these sites can vary between different cells. 
 > We use positional feature to reprsent the information of methylation distribution in multiple cell.
 
-> [**positional_feature.m**](https://github.com/guofei-tju/LightCpG/tree/master/feature/positional%20feature) is used to extract positional feature, in which multiple single-cell sequencing files are necessary.
+> ### [**positional_feature.m**](https://github.com/guofei-tju/LightCpG/tree/master/feature/positional%20feature) is used to extract positional feature, in which multiple single-cell sequencing files are necessary.
 
 # No.2 Feature combination
 
