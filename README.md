@@ -1,7 +1,8 @@
 # LightCpG
 
-![The flowchart of LightCpG](https://github.com/guofei-tju/LightCpG/blob/master/Framework.jpg)
+## The flowchart of LightCpG
 
+<div align=center><img width="700" height="500" src="https://github.com/guofei-tju/LightCpG/blob/master/Framework.jpg"/></div>
 
 # Input：BED format file
 
@@ -30,7 +31,7 @@
 > including the extracted DNA sequence of 101 bp with 50 bp before and 50 bp after the CpG site. 
 > Then, we employ the method of n-gram to extract sequence feature from sequence.
 
-> ### DNA sequence is extracted by using the sequence_extract.py, in which hg19 database is necessary.
+> ### DNA sequence is extracted by using the [**sequence_extract.py**](https://github.com/guofei-tju/LightCpG/tree/master/feature/sequence%20feature), in which hg19 database is necessary.
 
 >> In the code, the following questions need to be attention.
 
@@ -38,7 +39,7 @@
 
 >>> The 'sub_f' is the folder where input file is stored
 
-> ### n-gram feature is extracted by using demo.txt according the extracted sequence.
+> ### n-gram feature is extracted by using [**demo.txt**](https://github.com/guofei-tju/LightCpG/tree/master/feature/sequence%20feature) according the extracted sequence.
 
 >> In the code, the following question need to be attention.
 
@@ -50,7 +51,7 @@
 > In this paper, structural feature includes CGI status (CGI, CGI shore, CGI shelf), cis-regulatory elements (TFBS, DNase, chromatin states, histone modification),  
 > and DNA properties (iHS, constrain score). These features reprsent the attribute of CpG site in genome. 
 
-> ### Structural feature is extracted by using demo.txt, in which structural feature files are necessary.
+> ### Structural feature is extracted by using [**demo.txt**](https://github.com/guofei-tju/LightCpG/tree/master/feature/structural%20feature), in which structural feature files are necessary.
 
 >> CGI file is downloaded from the UCSC genome browser[1].
 
@@ -71,7 +72,7 @@
 > We posit that some of the same CpG sites with unknown methylation states can be detected in multiple cells, and that the states of these sites can vary between different cells. 
 > We use positional feature to reprsent the information of methylation distribution in multiple cell.
 
-> positional_feature.m is used to extract positional feature, in which multiple single-cell sequencing files are necessary.
+> [**positional_feature.m**](https://github.com/guofei-tju/LightCpG/tree/master/feature/positional%20feature) is used to extract positional feature, in which multiple single-cell sequencing files are necessary.
 
 # No.2 Feature combination
 
@@ -79,7 +80,7 @@
 
 # No.3 classifier
 
-> In our paper, five classifiers are employed to construct prediction model, including LightGBM[4], XGboost[5], Deep learning, Random Forset and GBDT.
+> In our paper, five classifiers are employed to construct prediction model, including [**LightGBM[4]**](https://github.com/guofei-tju/LightCpG/tree/master/classifier), [**XGboost[5]**](https://github.com/guofei-tju/LightCpG/tree/master/classifier), [**Deep learning**](https://github.com/guofei-tju/LightCpG/tree/master/classifier), [**Random Forset**](https://github.com/guofei-tju/LightCpG/tree/master/classifier) and [**GBDT**](https://github.com/guofei-tju/LightCpG/tree/master/classifier).
 
 
 # References
